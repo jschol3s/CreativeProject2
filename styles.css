@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  background-color: #49516F;
+  justify-content: center;
+}
+
+.title {
+  padding: 3%;
+  text-align: center;
+  font-family: "Arial";
+  border: 2px solid black;
+  margin: 2%;
+  background-color: #BCBDC0;
+  border-radius: 15px;
+}
+
+.title img {
+  height: 200px;
+  width: auto;
+  margin-top: 3%;
+}
+
+.viewTeams {
+  padding: 2%;
+  text-align: center;
+  font-family: "Arial";
+}
+
+.viewPlayers {
+  padding: 2%;
+  text-align: center;
+  font-family: "Arial";
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+#teamResults {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#playerResults {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#subtitle {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+}
+
+#teamData {
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid gray;
+  margin: 2%;
+  padding: 1%;
+  width: 16%;
+}
+
+#playerData {
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid gray;
+  margin: 2%;
+  padding: 1%;
+  width: 16%;
+}
+
+a {
+  color: white;
+}
