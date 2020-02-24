@@ -13,6 +13,6 @@ document.getElementById("playerSubmit").addEventListener("click", function(event
         results += "Team: " + json.data[i].team.name + '</div>'
       }
       document.getElementById("playerResults").innerHTML = results;
-      document.getElementById('footer').innerHTML = "<a href='#'>GitHub Repository Link</a>";
+      document.getElementById('footer').innerHTML = "<a href='https://github.com/jschol3s/CreativeProject2'>GitHub Repository Link</a>";
     });
 });
